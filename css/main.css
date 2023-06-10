@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+#wrap{letter-spacing: -0.05em;}
+body{font: 12px/1.2 'Spoqa Han Sans', sans-serif; color: #4d4d4d;}
+
+/*--------------------------------header--*/
+header{width: 100vw; height: 40px; background: #f2f2f2;}
+.header_01{max-width: 1200px; height: 100%; margin: 0 auto;}
+.header_01 .u_nav::after{
+    content: ''; display: block; clear: both;
+}
+.header_01 .u_nav.fl{float: left;}
+.header_01 .u_nav.fl li{display: inline-block;}
+.header_01 .u_nav.fl li .sp{
+    display: block; width: 22px; height: 22px;
+    background-color: #fff; background-size: 100% 100%;
+    border: 1px solid #d9d9d9; border-radius: 100%;
+    background-image: url(../img/u_gp.png);
+    background-repeat: no-repeat;
+}
+.header_01 .u_nav.fl li:nth-child(2) .sp{background-image: url(../img/u_ap.png);}
+.header_01 .u_nav.fl li:nth-child(3) .sp{background-image: url(../img/u_in.png);}
+.header_01 .u_nav.fl li:nth-child(4) .sp{background-image: url(../img/u_kc.png);}
+.header_01 .u_nav.fl li:nth-child(5) .sp{background-image: url(../img/u_yt.png);}
+.header_01 .u_nav.fl li:nth-child(6) .sp{background-image: url(../img/u_fb.png);}
+.header_01 .u_nav.fl li a{font-size: 0;}
+
+.header_01 .u_nav.fr{float: right;}
+.header_01 .u_nav.fr li{display: inline-block; margin-left: 10px;}
+.header_01 .u_nav.fr li a{line-height: 40px; color: #808080;;}
+/*--------------------------------header_01--*/
+.header_02{width: 100vw; height: 117px; border-bottom: 1px solid #d9d9d9; }
+.header_02 .home{width: 155px; height: 32px; margin: 20px auto; background: url(../img/sp_common.png);}
+.header_02 .home a{font-size: 0;}
+/*--------------------------------header_02--*/
+.h02_wrap{
+    position: relative; max-width: 1200px; height: 40px; margin: 0 auto; /*padding: 12px 0;*/
+    vertical-align: top;
+}
+.h02_wrap::after{content: ''; display: block; clear: both;}
+.h02_wrap .h02_fl,
+.h02_wrap .h02_fr{display:inline-block;}
+.h02_wrap .h02_fl button{vertical-align: top; margin-top: 13px;}
+.h02_wrap .h02_fl .sp{
+    width: 26px; height: 17px; display: inline-block;
+    background: url(../img/sp_common.png) no-repeat;
+    background-size: 160px 82px; background-position: -22px -32px;
+    font-size: 0; line-height: 40px;
+}
+
+.h02_wrap .h02_fl .gnb{display:inline-block; margin: 0 0 3px 30px;line-height: 40px;}
+.h02_wrap .h02_fl .gnb ul li{float: left;}
+.h02_wrap .h02_fl .gnb ul li a{padding: 0 17px; font-size: 16px; font-weight: 700;}
+
+.h02_wrap .h02_fr::after{content: ''; display: block; clear: both;}
+.h02_wrap .h02_fr{float: right; line-height: 40px; width: 350px; height: 40px;}
+.h02_wrap .h02_fr .h02_abtn li{display:inline-block; width: 45px; height:100%; text-align: center;}
+.h02_wrap .h02_fr .h02_abtn, .search{display: inline-block;}
+/* .h02_wrap .h02_fr .h02_abtn li a, button{top: 0;} */
+
+.h02_wrap .h02_fr .h02_abtn li a .sp{
+    width: 21px; height: 21px; display: inline-block;
+    background: url(../img/sp_common.png) no-repeat;
+    background-size: 160px 82px; background-position: -50px -32px;
+    font-size: 0; line-height: 40px;
+}
+.h02_wrap .h02_fr .h02_abtn li:nth-child(2) a .sp{width: 26px; height: 24px; background-position: -73px -32px;}
+.h02_wrap .h02_fr .h02_abtn button .sp{
+    width: 22px; height: 22px; display: inline-block;
+    background: url(../img/sp_common.png) no-repeat;
+    background-size: 160px 82px; background-position: -101px -32px;
+    font-size: 0; line-height: 40px;
+}
+.h02_wrap .h02_fr .search{position: relative; background-color: #f2f2f2; border: 1px solid #f2f2f2; border-radius: 4px;}
+.h02_wrap .h02_fr .search input{
+    margin-left: -1px; width: 140px; padding-right: 33px;
+    text-indent: 14px; font-size: 11px;
+    background-color: transparent; box-sizing: content-box;
+}
+.h02_wrap .h02_fr .search .delete_words{
+    position: absolute;
+    top: calc(50% - 8.5px); right: 35px;
+    width: 17px; height: 17px; font-size: 0;
+    background: #b3b3b3; background-size: 7px auto; border-radius: 100%;
+}
+.h02_wrap .h02_fr .search .btn_search{height: 38px;}
+.h02_wrap .h02_fr .search .btn_search span{font-size: 0;}
+.h02_wrap .h02_fr .search .btn_search::before{
+    content: ''; display: block; position: absolute;
+    width: 16px; height: 16px;
+    background-image: url(../img/sp_common.png) no-repeat; background-size: 160px 82px;
+    background-position: -125px -32px;
+}
+/* content: "\e9af"; */
+
+
+
+/*--------------------------------h02_wrap--*/
+
+
+
+
+
+
+
+
+
+/*------------------------------//header--*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------//header--*/
